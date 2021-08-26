@@ -3,7 +3,7 @@
 ## Work description
  I made a small app with a login, and a section to make and read publications.
 
-## Technologies and explanation
+## Technologies
 - Python Flask
 - ReactJS
 - MongoDB
