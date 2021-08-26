@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+body {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  background-color: #00a8e8;
+}
+
+h1{
+  color: white;
+  font-size: 4rem;
+}
+
+
+#welcomelogin, #welcome{
+  color: white;
+  font-size: 4rem;;
+  padding: 5rem;
+}
+
+#login {
+  background-color: white;
+  color: black;
+  width: 25rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+#login label {
+  font-weight: bold;
+}
+#login label input[type="text"],
+input[type="password"] {
+  margin: 0.5rem 3rem 3rem 3rem;
+  width: 17rem;
+  height: 2rem;
+  border: none;
+  border-bottom: 1px black solid;
+  outline: none;
+}
+
+#login input[type="submit"] {
+  width: 17rem;
+  height: 3rem;
+  border: none;
+  border-radius: 2rem;
+  margin: 0 2rem 2rem 2rem;
+  background-color: #007ea7;
+  color: white;
+  transition: 0.3s;
+}
+
+#login input[type="submit"]:hover {
+  background-color: rgb(228, 228, 228);
+  color: #007ea7;
+  font-size: 1rem;
+}
+
+#login p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#login p .link {
+  text-decoration: none;
+  color: #007ea7;
+}
+
+/* ################# */
+
+#register {
+  background-color: white;
+  color: black;
+  width: 25rem;
+  padding: 2rem;
+  margin: auto;
+}
+
+#register label {
+  font-weight: bold;
+}
+#register label input[type="text"],
+input[type="password"] {
+  margin: 0.5rem 3rem 3rem 3rem;
+  width: 17rem;
+  height: 2rem;
+  border: none;
+  border-bottom: 1px black solid;
+  outline: none;
+}
+
+#register input[type="submit"] {
+  width: 17rem;
+  height: 3rem;
+  border: none;
+  border-radius: 2rem;
+  margin: 0 2rem 2rem 2rem;
+  background-color: #007ea7;
+  color: white;
+  transition: 0.3s;
+}
+
+#register input[type="submit"]:hover {
+  background-color: rgb(228, 228, 228);
+  color: #007ea7;
+  font-size: 1rem;
+}
+
+#register p {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+#register p .link {
+  text-decoration: none;
+  color: #007ea7;
+}
+
+
+/*
+    NAVBAR
+*/
+
+#navbar {
+  width: 100vw;
+  font-weight: bold;
+  background-color: #00171F;
+}
+#navbar ul {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1em 0;
+}
+
+#navbar ul li:first-child {
+  margin-right: auto;
+  margin-left: 3em;
+}
+
+#navbar #user{
+  color: #00A8E8;
+  text-shadow: 3px 2px 3px rgba(255,255,255,.2);
+  padding: 0 3rem 0 2rem;
+  display: flex;
+}
+
+#navbar #user #icon{
+  font-size: 1.7rem;
+  padding-top: 10px;
+}
+
+#navbar #user p{
+  padding-top: 12px;
+  padding-left: 10px;
+}
+
+#navbar ul li .aNavBar {
+  color: white;
+  text-decoration: none;
+  padding-right: 5em;
+  position: relative;
+  transition: all ease-in-out 550ms;
+}
+
+#navbar ul li .aNavBar::after {
+  content: "";
+  position: absolute;
+  display: block;
+  height: 0.4em;
+  width: 0%;
+  background-color: #00A8E8;
+  bottom: -1em;
+  transition: all ease-in-out 250ms;
+}
+#navbar ul li .aNavBar:hover::after {
+  width:60%;
+}
+
+#navbar ul li .aNavBar:hover{
+  color: #00A8E8;
+}
+
+
+/*  
+    BLOGS
+*/
+
+#blogs{
+  display: flex;
+  flex-direction: column;
+}
+
+#blogs .blog{
+  width: 40rem;
+  background-color: white;
+  color: black;
+  padding: 1.5rem;
+  margin: auto;
+  margin-bottom: 2rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+#blogs .blog .text{
+  text-align: justify;
+}
+#blogs .blog .author{
+  font-weight: bold;
+  text-align: start;
+  padding: 2rem 2rem 0 2rem;
+  font-size: 1rem; 
+  display: flex;
+}
+
+#blogs .blog .author .icon{
+  font-size: 1.3rem;
+}
+
+#blogs .blog .delete{
+  width: auto;
+  height: auto;
+  font-size: 1.5rem;
+  margin: 0 auto 0 auto;
+  color: red;
+  outline: none;
+  border: none;
+  background: transparent;
+  transition: .3s;
+}
+
+#blogs .blog .delete:hover{
+  font-size: 2rem;
+}
+
+/*
+  POST NEW BLOG
+*/
+#newBlog {
+  display: flex;
+  flex-direction: column;
+  
+}
+
+#newBlog #newblog{
+  width: 40rem;
+  margin: auto;
+  border-radius: 1rem;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  resize: none;
+}
+
+#newBlog input[type="submit"]{
+  width: 17rem;
+  height: 3rem;
+  border: none;
+  border-radius: 2rem;
+  margin: 1rem auto 2rem auto;
+  background-color: #007ea7;
+  color: white;
+  transition: 0.3s;
+}
+
+#newBlog input[type="submit"]:hover {
+  background-color: rgb(228, 228, 228);
+  color: #007ea7;
+  font-size: 1rem;
+}
