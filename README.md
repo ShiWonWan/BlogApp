@@ -23,6 +23,4 @@ There is some endpoints:
 ![Sign In](https://raw.githubusercontent.com/ShiWonWan/BlogApp/main/media/signin.png)
 ![Sign Up](https://raw.githubusercontent.com/ShiWonWan/BlogApp/main/media/signup.png)
 
-<figure class="video_container">
-  <iframe src="https://raw.githubusercontent.com/ShiWonWan/BlogApp/main/media/video_example.mp4" frameborder="0" allowfullscreen="true"> </iframe>
-</figure>
+https://raw.githubusercontent.com/ShiWonWan/BlogApp/main/media/video_example.mp4
